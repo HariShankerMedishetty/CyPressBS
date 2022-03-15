@@ -1,0 +1,23 @@
+{
+  "name": "cypress-framework",
+  "version": "1.0.0",
+  "description": "cypress project grid",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "cypress:open": "cypress open",
+    "cypress:browserstack": "browserstack-cypress run --sync --spec cypress/integration/pom/homeSauce.spec.js"
+  },
+  "keywords": [
+    "e2e",
+    "tests",
+    "cypress",
+    "automation",
+    "frameworks"
+  ],
+  "author": "Hari Medishetty",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^9.4.1"
+  }
+}
